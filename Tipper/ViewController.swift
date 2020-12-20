@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         
         //calculate tip and total
-        let tipPercentage = [0.15, 0.20, 0.25]
+        let tipPercentage = [0.15, 0.18, 0.20]
         let tip  = bill * tipPercentage[TipControl.selectedSegmentIndex]
         let total = bill + tip
         
