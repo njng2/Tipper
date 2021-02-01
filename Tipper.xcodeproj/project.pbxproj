@@ -15,6 +15,7 @@
 		B91B2C71258EF41F00AB0428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91B2C6F258EF41F00AB0428 /* LaunchScreen.storyboard */; };
 		B91B2C7C258EF41F00AB0428 /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91B2C7B258EF41F00AB0428 /* TipperTests.swift */; };
 		B91B2C87258EF41F00AB0428 /* TipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91B2C86258EF41F00AB0428 /* TipperUITests.swift */; };
+		B95F6F7825C8947A0027C6DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6F7725C8947A0027C6DE /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B91B2C82258EF41F00AB0428 /* TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91B2C86258EF41F00AB0428 /* TipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperUITests.swift; sourceTree = "<group>"; };
 		B91B2C88258EF41F00AB0428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95F6F7725C8947A0027C6DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B91B2C63258EF41D00AB0428 /* Tipper */ = {
 			isa = PBXGroup;
 			children = (
+				B95F6F7725C8947A0027C6DE /* WelcomeViewController.swift */,
 				B91B2C64258EF41D00AB0428 /* AppDelegate.swift */,
 				B91B2C66258EF41D00AB0428 /* SceneDelegate.swift */,
 				B91B2C68258EF41D00AB0428 /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91B2C69258EF41D00AB0428 /* ViewController.swift in Sources */,
+				B95F6F7825C8947A0027C6DE /* WelcomeViewController.swift in Sources */,
 				B91B2C65258EF41D00AB0428 /* AppDelegate.swift in Sources */,
 				B91B2C67258EF41D00AB0428 /* SceneDelegate.swift in Sources */,
 			);
